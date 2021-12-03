@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "postinstall": "cd node_modules/rockstar/satriani && npm install && npm run pegjs"
+  },
+  "devDependencies": {
+    "readline-sync": "^1.4.10",
+    "rockstar": "git+https://github.com/RockstarLang/rockstar.git"
+  }
+}
